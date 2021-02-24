@@ -25,8 +25,16 @@
 ```shell
 NPM
 	npm install express --save
+	npm install typeorm --save
+	npm install reflect-metadata --save
+	npm install sqlite3 --save
+	npm install uuid
 YARN
 	yarn add express
+	yarn add typeorm
+	yarn add reflect-metadata
+	yarn add sqlite3
+	yarn add uuid
 ```
 
 <h4>
@@ -39,8 +47,10 @@ NPM
 	npm install @types/express --save-dev
 	npm install typescript --save-dev
 	npm install ts-node-dev --save-dev
+	npm install @types/uuid --save-dev
 YARN
 	yarn add @types/express -D
 	yarn add typescript -D
 	yarn add ts-node-dev -D
+	yarn add @types/uuid -D
 ```
