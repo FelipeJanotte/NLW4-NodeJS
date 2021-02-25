@@ -28,14 +28,17 @@ NPM
 	npm install typeorm --save
 	npm install reflect-metadata --save
 	npm install sqlite3 --save
-	npm install uuid
+	npm install uuid --save
+	npm install nodemailer --save
+	npm install handlebars --save
 YARN
 	yarn add express
 	yarn add typeorm
 	yarn add reflect-metadata
 	yarn add sqlite3
 	yarn add uuid
-	
+	yarn add nodemailer
+	yarn add handlebars
 ```
 
 <h3>
@@ -54,6 +57,7 @@ NPM
 	npm install @types/jest --save-dev
 	npm install supertest --save-dev
 	npm install @types/supertest --save-dev
+	npm install @types/nodemailer --save-dev
 YARN
 	yarn add @types/express -D
 	yarn add typescript -D
@@ -64,6 +68,7 @@ YARN
 	yarn add @types/jest -D
 	yarn add supertest -D
 	yarn add @types/supertest -D
+	yarn add @types/nodemailer -D
 SE UTILIZAR WINDOWS
 	package.json ->
 		"scripts":{
